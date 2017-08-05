@@ -1,0 +1,17 @@
+String from variables:
+#include <sstream>
+std::ostringstream ss;
+ss << "string" << variable;
+string s = ss.str();
+
+String to lower:
+#include <algorithm>
+std::transform(s.begin(), s.end(), s.begin(), ::tolower);
+
+Printf float precision:
+pritnf("%.0f", float_num);
+
+String from stdin:
+#include <iostream>
+string word;
+cin >> word;
