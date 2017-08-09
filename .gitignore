@@ -1,6 +1,7 @@
 *
 !*/
 !*.cpp
+!*.py
 !*.md
 !.gitignore
 !LICENSE
